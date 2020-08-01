@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbc4565c-04b0-4a9f-9615-18ab74e789c2" name="Default Changelist" comment="" />
+    <list default="true" id="bbc4565c-04b0-4a9f-9615-18ab74e789c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Bitrix/pages/MyUserStory_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Bitrix/pages/TaskPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Bitrix/runners/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Bitrix/step_definitions/Login_StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Bitrix/step_definitions/Upload_DownloadStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/upload.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/Bitrix/pages/LoginPages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/Bitrix/pages/MyUserStory_3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/Bitrix/runners/CukesRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/Bitrix/step_definitions/Upload_DownloadStepDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/Bitrix/utilities/BrowserUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/Bitrix/utilities/ConfigurationReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/Bitrix/utilities/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/upload.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Bitrix/pages/LoginPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Bitrix/pages/LoginPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,20 +60,39 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ep4qIEWvdXiBEl6pkptnmQMaMW" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bitrix24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Bitrix.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Bitrix.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.Bitrix.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,10 +107,58 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="450" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595006204867">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1595006204867" />
+    <state width="1869" height="333" key="GridCell.Tab.0.bottom" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state width="1869" height="333" key="GridCell.Tab.0.center" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state width="1869" height="333" key="GridCell.Tab.0.left" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state width="1869" height="333" key="GridCell.Tab.0.right" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state width="1869" height="333" key="GridCell.Tab.1.bottom" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state width="1869" height="333" key="GridCell.Tab.1.center" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state width="1869" height="333" key="GridCell.Tab.1.left" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state width="1869" height="333" key="GridCell.Tab.1.right" timestamp="1595816308555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595816308555" />
+    <state x="344" y="78" key="SettingsEditor" timestamp="1595767813226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="344" y="78" key="SettingsEditor/0.0.1920.1040/-1280.45.1280.984@0.0.1920.1040" timestamp="1595767813226" />
   </component>
 </project>

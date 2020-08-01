@@ -1,0 +1,184 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-27T00:51:43.890Z",
+        "line": 11,
+        "name": "marketing login scenario",
+        "description": "",
+        "id": ":as-a-user--i-should-be-able-to-login-with-correct-credentials-to-different-accounts.;marketing-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4543000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is in the login page",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Login_StepDefinitions.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2648000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User logs in as marketing",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Login_StepDefinitions.user_logs_in_as_marketing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see ActivityStream",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Login_StepDefinitions.user_should_see_activity_stream()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": ":As a user, I should be able to login with correct credentials to different accounts.",
+    "description": "    Accounts are helpdesk, marketing, hr",
+    "id": ":as-a-user--i-should-be-able-to-login-with-correct-credentials-to-different-accounts.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-27T00:51:51.197Z",
+        "line": 4,
+        "name": "User should be able to see task",
+        "description": "",
+        "id": "user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks--download-from-external-drive-;user-should-be-able-to-see-task",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should be able to click on task",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_click_on_task()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should be able to click on Upload files icon",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_click_on_upload_files_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be able to click on upload files and images",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_click_on_upload_files_and_images()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to click on Download from external drive",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_click_on_download_from_external_drive()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to click on Select document from Bitrix24",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_click_on_select_document_from_bitrix24()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to create Document",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_create_document()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to create Spreadsheet",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_create_spreadsheet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to create Presentation",
+            "match": {
+              "location": "com.Bitrix.step_definitions.Upload_DownloadStepDefinition.user_should_be_able_to_create_presentation()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to click on upload files icon to upload files and pictures from local disks, download from external drive,",
+    "description": "  select documents from bixtrix24, and create files to upload.",
+    "id": "user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks--download-from-external-drive-",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/upload.feature",
+    "tags": []
+  }
+]
